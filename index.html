@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+   
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>BLACKJACK</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="objects.js" defer></script> 
+   <script src="Blackjack.js" defer></script> 
+
+</head>
+<body>
+   <section id="pokerTable">
+      <h1>BLACKJACK​</h1>
+
+      <div id="table">
+
+         <div id="ijustneedthisforspacelol"></div>
+
+         <div id="yourhand">YOUR HAND</div>
+         <div id="computerhand">COMPUTER HAND</div>
+            <!--img of the deck-->
+            <img src="cards/deck.jpg" alt="" id="cardstack" />
+            <!--players cards-->
+            <img id="card0" class="cardImg" src="cards/blank.png" />
+            <img id="card1" class="cardImg" src="cards/blank1.png" />
+            <!--Dealers cards-->
+            <img id="card2" class="cardImg" src="cards/deck.jpg" />
+            <img id="card3" class="cardImg" src="cards/blank1.png" />
+
+
+         <!--score boxes-->
+         <div id="scores" class="yourscores">Your score:</div>
+         <div id="scoredisplay"></div>
+         <div id ="scores2" class="dealerscores">Dealer score:</div>
+         <div id="dealerscoredisplay"></div>
+         <div id="status"></div> 
+
+         <div id="board">
+            <input type="button" id="drawB" value="Draw" class="pokerButton" />
+            <input type="button" id="flipB" value="Flip" class="pokerButton" disabled />
+            <input type="button" id="standB" value="Stand" class="pokerButton"/>
+         </div>  
+
+         <p id="instructions"> </br>
+            <strong>How To Play</strong></br>
+            Get closer to 21 without going over than the dealer!
+            The dealers face down card will be revealed when you stand.
+      </br>   
+
+   </section>     
+</body>
+</html>
